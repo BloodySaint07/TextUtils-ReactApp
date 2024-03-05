@@ -49,7 +49,7 @@ function App() {
                 />
               }
             ></Route>
-            <Route path="/aboutus" element={<LightSwitch />}></Route>
+            <Route path="/aboutUs" element={<LightSwitch />}></Route>
           </Routes>
         </div>
       </Router>
