@@ -35,7 +35,6 @@ function App() {
 
   return (
     <>
-      {/* <Navbar title="Text Checker"/> */}
       <Router>
         <Navbar title="TextUtils App" mode={mode} toggleMode={toggleModeFunc} />
         <Alert alert={alert} />
@@ -50,13 +49,10 @@ function App() {
                 />
               }
             ></Route>
-            <Route path="/about" element={<LightSwitch />}></Route>
+            <Route path="/aboutus" element={<LightSwitch />}></Route>
           </Routes>
         </div>
       </Router>
-      {/* <div class="container">
-        <LightSwitch />
-      </div> */}
     </>
   );
 }
